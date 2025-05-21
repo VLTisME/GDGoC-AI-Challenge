@@ -1,0 +1,3 @@
+*.pyc
+**/model_final.pth
+**/mask_rcnn_R_50_FPN_3x.yaml

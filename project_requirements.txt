@@ -1,0 +1,20 @@
+# define all packages, libraries need to run the server locally outside Docker
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.9
+celery==5.3.6
+redis==5.0.1
+# torch==2.1.2
+opencv-python-headless==4.9.0.80
+matplotlib==3.8.2
+numpy==1.26.3
+pillow==10.2.0
+pydantic==2.6.1
+pydantic-settings==2.2.1
+streamlit==1.31.0
+requests==2.31.0
+pillow==10.2.0
+matplotlib==3.8.2
+numpy==1.26.3
+plotly==5.18.0
+# detectron2 @ git+https://github.com/facebookresearch/detectron2.git
