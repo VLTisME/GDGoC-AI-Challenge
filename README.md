@@ -13,15 +13,15 @@ Need to add more:
 
 # 📑 Table of Contents
 
-- [🤖 Model](#-model)
-    - [📚 Dataset](#-dataset)
-    - [🤝 Mask R-CNN](#-Mask-R-CNN)
-    - [📄 CDF](#-CDF)
-- [🌐 Architecture Overview](#-architecture-overview)
-    - [📁 Project Structure](#-project-structure)
-    - [💻 Frontend](#-frontend)
-    - [🛠️ Backend](#-backend)
-    - [🖧 Celery](#-celery)
+- [🤖 Model](#model)
+    - [📚 Dataset](#dataset)
+    - [🤝 Mask R-CNN](#mask-r-cnn)
+    - [📄 CDF](#cdf)
+- [🌐 Architecture Overview](#architecture-overview)
+    - [📁 Project Structure](#project-structure)
+    - [💻 Frontend](#frontend)
+    - [🛠️ Backend](#backend)
+    - [🖧 Celery](#celery)
     - [✅ Redis](#redis)
     - [🔧 Docker](#docker)
 - [🧑🏻‍💻 How to run](#how-to-run)
@@ -29,11 +29,12 @@ Need to add more:
     - [⚙️ With Docker Compose](#with-docker-compose)
 - [🤗 Additional notes](#additional-notes)
 - [📔 Acknowledgements](#acknowledgements)
+
 ---
 
 ## Model
 
-### Dataset
+### 📚 Dataset
 
 The dataset and its information can be found [here](https://www.kaggle.com/competitions/gd-go-c-hcmus-aic-fragment-segmentation-track).
 
