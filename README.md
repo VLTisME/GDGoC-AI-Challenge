@@ -5,8 +5,8 @@ This application analyzes rock fragment images using Mask R-CNN for instance seg
 
 ## Notes:
 If possible in time, will add more:
-- Tech stack: Auto (Cronjob, MakeFile, Bash Script), Container (k8s), Cloud (GCP), CI/CD (Jenkins), Observable system.
-- Features: add a slider to modify threshold, allow users to upload multiple images (but then you have to modify a lot xd).
+- Tech stack: k8s, Cloud (GCP), CI/CD (Jenkins), Observable system.
+- Features: add a slider to modify threshold, allow users to upload multiple, choose sample object to estimate sizes.
 - Others: Demo, Architecture Visualization.
 
 ---
