@@ -376,7 +376,7 @@ mamba create -n fragment-segmentation
 ```
 - Activate the virtual environment:
 ```bash
-mamba activate fragment-segmentation
+mamba activate fragment-segmentation python=3.9
 ```
 Then you have two running options:
 
