@@ -75,7 +75,7 @@ This document outlines the complete project structure for my rock fragment analy
 rock-fragment-analysis/
 ├── .env                           # Environment variables
 ├── .gitignore                     # Git ignore file
-├── project_requirements.txt       # Project requirements 
+├── requirements.txt       # Project requirements 
 ├── local_run.sh                   # Run project outside Docker
 ├── Makefile                       # Make running project easier
 ├── LICENSE                        # Project's license
