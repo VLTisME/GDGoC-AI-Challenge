@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export MODEL_CONFIG_PATH="rock-fragment-app/model/mask_rcnn_R_50_FPN_3x.yaml"
-export MODEL_WEIGHTS_PATH="rock-fragment-app/model/model_final.pth"
+export MODEL_CONFIG_PATH="/home/vltisme/Desktop/Competition/AI Challenge/rock-fragment-app/model/mask_rcnn_R_50_FPN_3x.yaml"
+export MODEL_WEIGHTS_PATH="/home/vltisme/Desktop/Competition/AI Challenge/rock-fragment-app/model/model_final.pth"
 
 export CELERY_BROKER_URL=redis://localhost:6379/0
 export CELERY_RESULT_BACKEND=redis://localhost:6379/0

@@ -41,7 +41,7 @@ def process_image(image_list):
         
         # Run inference
         instances = predict_image(image_bgr)
-        
+        print(f"[DEBUG inference_tasks] Number of instances received: {len(instances)}")
         # Get masks
         masks = instances.pred_masks.numpy()
         
@@ -53,7 +53,7 @@ def process_image(image_list):
         
         # Record end time
         processing_time = time.time() - start_time
-        
+        print(f"[DEBUG inference_tasks] Number of masks extracted: {len(masks)}")
         # Prepare result
         result = {
             "segmentation_image": visualization_base64,
